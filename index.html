@@ -22,7 +22,7 @@
 	<div id="map"></div>
 	<script src="cameras.geojson"> </script>
 	<script>
-		const mymap = L.map('map').setView([42.4368, 19.2554], 14);
+		const mymap = L.map('map', {minZoom: 8}).setView([42.4368, 19.2554], 14);
 		const attribution = '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors';
 		const tileURL = 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
 		const tiles = L.tileLayer(tileURL, {attribution});
