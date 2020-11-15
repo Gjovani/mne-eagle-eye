@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin="" />
+	<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
+	<style>
+		#map {
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			left: 0;
+			right: 0;
+		}
+	</style>
+	<title>MNE Eagle Eye</title>
+	<!--eagle favicon made by Smashicons -->
+	<link rel="icon" type="image/jpg" href="assets/eagle_icon.svg"/>
+</head>
+
+<body>
+	<div id="map"></div>
+	<script src="cameras.geojson"> </script>
+	<script>
+		const mymap = L.map('map').setView([42.4368, 19.2554], 14);
+		const attribution = '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors';
+		const tileURL = 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
+		const tiles = L.tileLayer(tileURL, {attribution});
+		tiles.addTo(mymap);
+
+		//camera-pin icon made by Pixel perfect https://www.flaticon.com/authors/pixel-perfect
+		const myIcon = new L.icon({
+			iconUrl: 'assets/camera_pin.svg',
+			iconSize: [32, 32],
+			iconAnchor: [16, 32]
+		});
+
+		function customIcon(feature, layer) {
+			layer.setIcon(myIcon);
+			layer.bindPopup('<img src="' + feature.properties.Picture + '" style="width:500px;height:auto;">' +
+				// "<p></p>" + feature.properties.Description
+				feature.geometry.coordinates, {maxWidth: "auto"}
+			);
+		}
+
+		L.geoJSON(cams, {
+			onEachFeature: customIcon
+		}).addTo(mymap);
+	</script>
+</body>
+
+</html>
