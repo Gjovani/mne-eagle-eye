@@ -845,8 +845,8 @@ var cams = {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          19.129675,
-          42.058271
+          19.1297,
+          42.058191
         ]
       },
       "properties": {
