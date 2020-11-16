@@ -11,7 +11,7 @@ var cams = {
       },
       "properties": {
         "Description": "",
-        "Picture": "cam_photos/cam_0010.png"
+        "Picture": "https://mne-ee.s3.eu-central-1.amazonaws.com/cam_0010.png"
       }
     },
     {
@@ -39,7 +39,7 @@ var cams = {
       },
       "properties": {
         "Description": "",
-        "Picture": "cam_photos/cam_0011.png"
+        "Picture": "https://mne-ee.s3.eu-central-1.amazonaws.com/cam_0011.png"
       }
     },
     {
@@ -53,7 +53,7 @@ var cams = {
       },
       "properties": {
         "Description": "",
-        "Picture": "cam_photos/cam_0009.png"
+        "Picture": "https://mne-ee.s3.eu-central-1.amazonaws.com/cam_0009.png"
       }
     },
     {
@@ -165,7 +165,7 @@ var cams = {
       },
       "properties": {
         "Description": "",
-        "Picture": "cam_photos/cam_0004.png"
+        "Picture": "https://mne-ee.s3.eu-central-1.amazonaws.com/cam_0004.png"
       }
     },
     {
@@ -207,7 +207,7 @@ var cams = {
       },
       "properties": {
         "Description": "",
-        "Picture": "cam_photos/cam_0005.png"
+        "Picture": "https://mne-ee.s3.eu-central-1.amazonaws.com/cam_0005.png"
       }
     },
     {
@@ -221,7 +221,7 @@ var cams = {
       },
       "properties": {
         "Description": "",
-        "Picture": "cam_photos/cam_0003.png"
+        "Picture": "https://mne-ee.s3.eu-central-1.amazonaws.com/cam_0003.png"
       }
     },
     {
@@ -235,7 +235,7 @@ var cams = {
       },
       "properties": {
         "Description": "",
-        "Picture": "cam_photos/cam_0001.png"
+        "Picture": "https://mne-ee.s3.eu-central-1.amazonaws.com/cam_0001.png"
       }
     },
     {
@@ -249,7 +249,7 @@ var cams = {
       },
       "properties": {
         "Description": "",
-        "Picture": "cam_photos/cam_0002.png"
+        "Picture": "https://mne-ee.s3.eu-central-1.amazonaws.com/cam_0002.png"
       }
     },
     {
@@ -263,7 +263,7 @@ var cams = {
       },
       "properties": {
         "Description": "",
-        "Picture": "cam_photos/cam_0007.png"
+        "Picture": "https://mne-ee.s3.eu-central-1.amazonaws.com/cam_0007.png"
       }
     },
     {
@@ -333,7 +333,7 @@ var cams = {
       },
       "properties": {
         "Description": "",
-        "Picture": "cam_photos/cam_0006.png"
+        "Picture": "https://mne-ee.s3.eu-central-1.amazonaws.com/cam_0006.png"
       }
     },
     {
@@ -445,7 +445,7 @@ var cams = {
       },
       "properties": {
         "Description": "",
-        "Picture": "cam_photos/cam_0016.jpg"
+        "Picture": "https://mne-ee.s3.eu-central-1.amazonaws.com/cam_0016.jpg"
       }
     },
     {
@@ -543,7 +543,7 @@ var cams = {
       },
       "properties": {
         "Description": "",
-        "Picture": "cam_photos/cam_0008.png"
+        "Picture": "https://mne-ee.s3.eu-central-1.amazonaws.com/cam_0008.png"
       }
     },
     {
@@ -557,7 +557,7 @@ var cams = {
       },
       "properties": {
         "Description": "",
-        "Picture": "cam_photos/cam_0017.jpg"
+        "Picture": "https://mne-ee.s3.eu-central-1.amazonaws.com/cam_0017.jpg"
       }
     },
     {
@@ -599,7 +599,7 @@ var cams = {
       },
       "properties": {
         "Description": "",
-        "Picture": "cam_photos/cam_0012.png"
+        "Picture": "https://mne-ee.s3.eu-central-1.amazonaws.com/cam_0012.png"
       }
     },
     {
@@ -641,7 +641,7 @@ var cams = {
       },
       "properties": {
         "Description": "",
-        "Picture": "cam_photos/cam_0014.png"
+        "Picture": "https://mne-ee.s3.eu-central-1.amazonaws.com/cam_0014.png"
       }
     },
     {
@@ -753,7 +753,7 @@ var cams = {
       },
       "properties": {
         "Description": "",
-        "Picture": "cam_photos/cam_0013.png"
+        "Picture": "https://mne-ee.s3.eu-central-1.amazonaws.com/cam_0013.png"
       }
     },
     {
@@ -795,7 +795,7 @@ var cams = {
       },
       "properties": {
         "Description": "",
-        "Picture": "cam_photos/cam_0019.jpg"
+        "Picture": "https://mne-ee.s3.eu-central-1.amazonaws.com/cam_0019.jpg"
       }
     },
     {
@@ -823,7 +823,7 @@ var cams = {
       },
       "properties": {
         "Description": "",
-        "Picture": "cam_photos/cam_0015.jpg"
+        "Picture": "https://mne-ee.s3.eu-central-1.amazonaws.com/cam_0015.jpg"
       }
     },
     {
@@ -837,7 +837,7 @@ var cams = {
       },
       "properties": {
         "Description": "",
-        "Picture": "cam_photos/cam_0018.jpg"
+        "Picture": "https://mne-ee.s3.eu-central-1.amazonaws.com/cam_0018.jpg"
       }
     },
     {
