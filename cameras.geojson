@@ -515,7 +515,7 @@ var cams = {
       },
       "properties": {
         "Description": "",
-        "Picture": ""
+        "Picture": "https://mne-ee.s3.eu-central-1.amazonaws.com/cam_0020.jpg"
       }
     },
     {
@@ -875,6 +875,34 @@ var cams = {
         "coordinates": [
           19.134708,
           42.057066
+        ]
+      },
+      "properties": {
+        "Description": "",
+        "Picture": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.24829,
+          42.442816
+        ]
+      },
+      "properties": {
+        "Description": "",
+        "Picture": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.244204,
+          42.441948
         ]
       },
       "properties": {
