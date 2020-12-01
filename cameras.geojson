@@ -909,6 +909,76 @@ var cams = {
         "Description": "",
         "Picture": ""
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.260349,
+          42.435624
+        ]
+      },
+      "properties": {
+        "Description": "",
+        "Picture": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.248578,
+          42.442883
+        ]
+      },
+      "properties": {
+        "Description": "",
+        "Picture": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.247857,
+          42.443246
+        ]
+      },
+      "properties": {
+        "Description": "",
+        "Picture": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.274817,
+          42.435157
+        ]
+      },
+      "properties": {
+        "Description": "",
+        "Picture": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.276187,
+          42.4352
+        ]
+      },
+      "properties": {
+        "Description": "",
+        "Picture": ""
+      }
     }
   ]
 };
