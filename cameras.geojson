@@ -229,8 +229,8 @@ var cams = {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          19.227423,
-          42.366716
+          19.22732,
+          42.3668
         ]
       },
       "properties": {
@@ -1127,6 +1127,76 @@ var cams = {
         "coordinates": [
           19.124674,
           42.085667
+        ]
+      },
+      "properties": {
+        "Description": "",
+        "Picture": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.098911,
+          42.101728
+        ]
+      },
+      "properties": {
+        "Description": "",
+        "Picture": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.0977,
+          42.10209
+        ]
+      },
+      "properties": {
+        "Description": "",
+        "Picture": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.099184,
+          42.101956
+        ]
+      },
+      "properties": {
+        "Description": "",
+        "Picture": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.045607,
+          42.142701
+        ]
+      },
+      "properties": {
+        "Description": "",
+        "Picture": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.033306,
+          42.153211
         ]
       },
       "properties": {

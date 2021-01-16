@@ -15,7 +15,7 @@ Latitude, Longitude, Description, Picture
 42.333146, 19.210227, ,
 42.333340, 19.210579, , https://mne-ee.s3.eu-central-1.amazonaws.com/cam_0005.png
 42.366336, 19.227117, , https://mne-ee.s3.eu-central-1.amazonaws.com/cam_0003.png
-42.366716, 19.227423, , https://mne-ee.s3.eu-central-1.amazonaws.com/cam_0001.png
+42.366800, 19.227320, , https://mne-ee.s3.eu-central-1.amazonaws.com/cam_0001.png
 42.367407, 19.226560, , https://mne-ee.s3.eu-central-1.amazonaws.com/cam_0002.png
 42.420016, 19.254603, , https://mne-ee.s3.eu-central-1.amazonaws.com/cam_0007.png
 42.420275, 19.255605, ,
@@ -80,3 +80,8 @@ Latitude, Longitude, Description, Picture
 42.092031, 19.110774, ,
 42.092256, 19.110937, ,
 42.085667, 19.124674, ,
+42.101728, 19.098911, ,
+42.102090, 19.097700, ,
+42.101956, 19.099184, ,
+42.142701, 19.045607, ,
+42.153211, 19.033306, ,
