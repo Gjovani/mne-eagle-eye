@@ -1343,6 +1343,90 @@ var cams = {
         "Description": "",
         "Picture": ""
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.267514,
+          42.424648
+        ]
+      },
+      "properties": {
+        "Description": "",
+        "Picture": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.263751,
+          42.435018
+        ]
+      },
+      "properties": {
+        "Description": "",
+        "Picture": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.263203,
+          42.434202
+        ]
+      },
+      "properties": {
+        "Description": "",
+        "Picture": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.268787,
+          42.424555
+        ]
+      },
+      "properties": {
+        "Description": "",
+        "Picture": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.032672,
+          42.154132
+        ]
+      },
+      "properties": {
+        "Description": "",
+        "Picture": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.032228,
+          42.153482
+        ]
+      },
+      "properties": {
+        "Description": "",
+        "Picture": ""
+      }
     }
   ]
 };
