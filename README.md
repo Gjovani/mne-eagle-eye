@@ -23,7 +23,7 @@ To-Do:
 - ~~upload images to a S3 bucket~~
 - "prettify" page
   - add statistics (total number of cameras, type, locations etc.)
-  ~~- add/edit logo ?~~
+  - ~~add/edit logo ?~~
   - clustering of markers ?
   - add camera info/description
 - domain ?
