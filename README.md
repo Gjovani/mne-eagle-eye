@@ -1,6 +1,6 @@
 # MNE Eagle Eye
 
-[This](https://giogio.me/mne-eagle-eye/) is a simple map of all the new surveillance cameras in Montenegro.
+[This](https://gjovani.github.io/mne-eagle-eye/) is a simple map of the street surveillance cameras in Montenegro.
 
 Currently, more and more cameras are still being installed around Podgorica but also in other cities as well, so this page will be updated.
 
@@ -23,7 +23,8 @@ To-Do:
 - ~~upload images to a S3 bucket~~
 - "prettify" page
   - add statistics (total number of cameras, type, locations etc.)
-  - add/edit logo ?
+  ~~- add/edit logo ?~~
   - clustering of markers ?
-  - add camera info
+  - add camera info/description
 - domain ?
+- add more locations

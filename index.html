@@ -36,7 +36,8 @@
 
 		function customIcon(feature, layer) {
 			layer.setIcon(myIcon);
-			layer.bindPopup('<img src="' + feature.properties.Picture + '" style="width:500px;height:auto;">' +
+			
+			layer.bindPopup('<img src="' + feature.properties.photo + '" style="width:500px;height:auto;">' +
 				// "<p></p>" + feature.properties.Description
 				feature.geometry.coordinates, {maxWidth: "auto"}
 			);
