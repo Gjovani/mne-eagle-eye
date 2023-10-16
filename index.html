@@ -4,6 +4,8 @@
 <head>
 	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin="" />
 	<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
+	<!-- GPS locate button -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet.locatecontrol@0.76.1/dist/L.Control.Locate.min.css" />
 	<style>
 		#map {
 			position: absolute;
@@ -20,6 +22,8 @@
 <body>
 	<div id="map"></div>
 	<script src="cameras.geojson"> </script>
+	<!-- GPS locate button -->
+	<script src="https://cdn.jsdelivr.net/npm/leaflet.locatecontrol@0.76.1/dist/L.Control.Locate.min.js" charset="utf-8"></script>
 	<script>
 		const mymap = L.map('map', {minZoom: 8}).setView([42.4368, 19.2554], 14);
 		const attribution = '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors';
@@ -52,6 +56,8 @@
 		L.geoJSON(cams, {
 			onEachFeature: customIcon
 		}).addTo(mymap);
+		// GPS locate button
+		L.control.locate().addTo(mymap);
 	</script>
 </body>
 
