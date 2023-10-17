@@ -61,7 +61,7 @@
 			if (feature.properties.photo == null) {
 				layer.bindPopup('<img src=assets/favicon_1.svg>' + feature.geometry.coordinates, {maxWidth: "auto"});
 			}else{
-				layer.bindPopup('<img src="' + feature.properties.photo + '" style="width:500px;height:auto;">' + feature.geometry.coordinates, {maxWidth: "auto"});
+				layer.bindPopup('<img src="' + feature.properties.photo + '" style="width:350px;height:auto;">' + feature.geometry.coordinates, {maxWidth: "auto"});
 				// layer.bindPopup('<img src="' + feature.properties.photo + '" style="width:500px;height:auto;">' + "<p></p>" + feature.properties.info, {maxWidth: "auto"} );
 			}
 		}
