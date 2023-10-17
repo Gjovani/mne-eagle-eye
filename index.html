@@ -26,10 +26,25 @@
 	<script src="https://cdn.jsdelivr.net/npm/leaflet.locatecontrol@0.76.1/dist/L.Control.Locate.min.js" charset="utf-8"></script>
 	<script>
 		const mymap = L.map('map', {minZoom: 8}).setView([42.4368, 19.2554], 14);
-		const attribution = '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors';
-		const tileURL = 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
-		const tiles = L.tileLayer(tileURL, {attribution});
-		tiles.addTo(mymap);
+
+		// OpenStreetMap Layer
+		osm = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{
+			attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+		});
+
+		// Google Maps Satellite Layer
+		googleSat = L.tileLayer('http://{s}.google.com/vt/lyrs=s&x={x}&y={y}&z={z}',{
+			maxZoom: 21,
+			subdomains:['mt0','mt1','mt2','mt3']
+		});
+
+		// Google Maps normal layer
+		googleStreets = L.tileLayer('http://{s}.google.com/vt/lyrs=m&x={x}&y={y}&z={z}',{
+			maxZoom: 21,
+			subdomains:['mt0','mt1','mt2','mt3'],
+			attribution: '#TODO oooooooooooooo'
+		});
+		googleStreets.addTo(mymap);
 
 		//camera-pin icon made by Pixel perfect https://www.flaticon.com/authors/pixel-perfect
 		const myIcon = new L.icon({
@@ -41,17 +56,21 @@
 		function customIcon(feature, layer) {
 			layer.setIcon(myIcon);
 
-			// layer.bindPopup('<img src="' + feature.properties.photo + '" style="width:500px;height:auto;">' +
-			// 	// "<p></p>" + feature.properties.Description
-			// 	feature.geometry.coordinates, {maxWidth: "auto"}
-			// );
-
 			if (feature.properties.photo == null) {
 				layer.bindPopup('<img src=assets/favicon_1.svg>' + feature.geometry.coordinates, {maxWidth: "auto"});
 			}else{
 				layer.bindPopup('<img src="' + feature.properties.photo + '" style="width:500px;height:auto;">' + feature.geometry.coordinates, {maxWidth: "auto"});
+				// layer.bindPopup('<img src="' + feature.properties.photo + '" style="width:500px;height:auto;">' + "<p></p>" + feature.properties.info, {maxWidth: "auto"} );
 			}
 		}
+
+		var baseLayers = {
+			"OpenStreetMap": osm,
+			"Google Maps": googleStreets,
+			"Google Maps Satellite": googleSat
+		};
+
+		L.control.layers(baseLayers).addTo(mymap);
 
 		L.geoJSON(cams, {
 			onEachFeature: customIcon
