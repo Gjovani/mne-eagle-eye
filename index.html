@@ -35,14 +35,15 @@
 		// Google Maps Satellite Layer
 		googleSat = L.tileLayer('http://{s}.google.com/vt/lyrs=s&x={x}&y={y}&z={z}',{
 			maxZoom: 21,
-			subdomains:['mt0','mt1','mt2','mt3']
+			subdomains:['mt0','mt1','mt2','mt3'],
+			attribution: 'Google Maps' 
 		});
 
 		// Google Maps normal layer
 		googleStreets = L.tileLayer('http://{s}.google.com/vt/lyrs=m&x={x}&y={y}&z={z}',{
 			maxZoom: 21,
 			subdomains:['mt0','mt1','mt2','mt3'],
-			attribution: '#TODO oooooooooooooo'
+			attribution: 'Google Maps'
 		});
 		googleStreets.addTo(mymap);
 
